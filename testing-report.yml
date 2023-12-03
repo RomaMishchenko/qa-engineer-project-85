@@ -1,1 +1,80 @@
+---
+- summary: |
+    Проверка успешной регистрация пользователя с помощью учётной записи email
+  status: pass
 
+- summary: |
+    Проверка входа с помощью учётной записи Gitgub
+  status: pass
+
+- summary: |
+    Проверка входа с помощью учётной записи Discord
+  status: pass
+
+- summary: |
+    Проверка отображения сайта в браузере Chrome LV
+  status: pass
+
+- summary: |
+    Проверка отображения сайта в браузере Mozila Firefox LV
+  status: pass
+
+- summary: |
+    Проверка отображения сайта в браузере Vivaldi LV
+  status: pass
+
+- summary: |
+    Проверка отображения сайта в браузере  Opera LV
+  status: pass
+
+- summary: |
+    Успешное создание игры с ботом 
+  status: pass
+
+- summary: |
+    Проверка продолжение игры если пользователь вышел 
+  status: pass
+
+- summary: |
+    Проверка выбора время игры
+  status: pass
+
+- summary: |
+    Проверка русской локализации 
+  status: fail
+
+- summary: |
+    Проверка прерывания игры
+  status: pass
+
+- summary: |
+    Просмотр завершённых игр пользователей
+  status: pass
+
+- summary: |
+    Просмотр списка пользователей находящихся в онлайн 
+  status: fail
+
+- summary: |
+    Успешное создание турниров
+  status: pass
+
+- summary: |
+    Отправка сообщения пользователю во время игры
+  status: pass
+
+- summary: |
+    Успешная отмена приглашения
+  status: pass
+
+- summary: |
+    Успешный просмотр игры в реальном времени 
+  status: pass
+
+- summary: |
+    Успешное возращения в список лобби  
+  status: pass
+
+- summary: |
+    Успешная проверка своей статистики 
+  status: pass
