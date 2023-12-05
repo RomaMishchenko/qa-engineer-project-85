@@ -125,7 +125,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Кнопка продолжить 
   expected-result: |
     Пользователь успешно продолжил игру
@@ -280,7 +280,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Открыта страница например My Profile
     - Нажать Codebattleby Hexlet’s community
   expected-result: |
