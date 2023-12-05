@@ -28,7 +28,8 @@
     empty 
   steps: 
     - Нажать Sign in with Github
-  expected-result: | Пользователь успешно авторизован 
+  expected-result: | 
+    Пользователь успешно авторизован 
 
 - summary: |
     Проверка входа с помощью учётной записи Discord
