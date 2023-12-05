@@ -287,7 +287,7 @@
   test-data: |
     empty 
   steps: |
-    - Открыта страница например (My Profile)
+    - Открыта страница например My Profile
     - Нажать Codebattleby Hexlet’s community
   expected-result: |
     Пользователь успешно перешёл в выбор лобби
