@@ -7,7 +7,7 @@
     Открыта страница регистрации 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Ввести Nickname
     - Ввести Email
     - Ввести Password 
@@ -26,7 +26,7 @@
     Аккаунт сайта привязан Github
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Нажать Sign in with Github
   expected-result: |
     Пользователь успешно вошёл на сайт
@@ -41,7 +41,7 @@
     Аккаунт сайта привязан Discord
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Нажать Sign in with Discord
   expected-result: |
     Пользователь успешно вошёл на сайт
@@ -110,7 +110,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Кнопка создать игру
     - Выбрать кнопку с ботом
     - Кнопка создать битву
@@ -138,7 +138,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Кнопка создать игру 
     - В строке уровень выбрать сложность 
   expected-result: |
@@ -152,7 +152,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Кнопка создать игру 
     - В строке контроль времени отрегулировать строку с временем 
   expected-result: |
@@ -166,7 +166,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Кнопка выбора языка
     - Выбрать русский язык
   expected-result: |
@@ -180,7 +180,7 @@
     Пользователь создал игру
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Нажать кнопку сдаться 
     - Подтвердить действие 
   expected-result: |
@@ -188,13 +188,13 @@
 
 - summary: |
     Просмотр завершённых игр пользователей 
-  requirement: >
+  requirement: |
     Пользователь должен иметь возможность просмотра завершённых игр других пользователей 
   prerequisites: |
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Нажать кнопку completed games
     - Нажать на любую кнопку show  
   expected-result: |
@@ -208,7 +208,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Нажать кнопку кнопку online
     - Выводится список пользователей   
   expected-result: |
@@ -222,7 +222,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Нажать кнопку кнопку tournaments
     - Нажать гиперссылку you may want to create one 
     - Заполнить формы Crate a new tournament 
@@ -252,7 +252,7 @@
     Пользователь отправил приглашение другому пользователю 
   test-data: |
     empty 
-  steps: >
+  steps: 
     - Пользователь1 в списке приглашений напротив приглашения Пользователю2
     нажимает Cancel 
   expected-result: |
@@ -266,7 +266,7 @@
     В списке игр есть активные батлы
   test-data: |
     empty 
-  steps: |
+  steps: 
     - В списке игр на странице лобби найти активную игру
     - Нажать show
   expected-result: |
@@ -274,7 +274,7 @@
 
 - summary: |
     Успешное возращения в список лобби 
-  requirement: >
+  requirement: |
     Пользователь должен иметь возможность скипнуть любую вкладку в игре и перейти в список лобби 
   prerequisites: |
     Пользователь авторизован 
@@ -294,7 +294,7 @@
     Пользователь авторизован 
   test-data: |
     empty 
-  steps: |
+  steps: 
     - Нажить на свой аватар 
     - В окне нажать My Profile
     - Окно statistics 
